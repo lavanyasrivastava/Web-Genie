@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFCF2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.booking-section {
+    margin-top: 20px;
+}
+
+.seats {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #CCC5B9;
+    border: none;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF8400;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
